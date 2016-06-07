@@ -1,0 +1,7 @@
+{
+    "name": "leychay/crud",
+    "description": "A test run using Slim Framework",
+    "require": {
+        "slim/slim": "^3.4"
+    }
+}
