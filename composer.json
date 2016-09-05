@@ -2,6 +2,9 @@
     "name": "leychay/crud",
     "description": "A test run using Slim Framework",
     "require": {
-        "slim/slim": "^3.4"
+        "slim/slim": "^3.4",
+        "vlucas/phpdotenv": "^2.3",
+        "monolog/monolog": "^1.21",
+        "twig/twig": "~1.0"
     }
 }
