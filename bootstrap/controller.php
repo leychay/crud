@@ -10,12 +10,22 @@ use \Psr\Http\Message\ResponseInterface as Response;
 //Load main page
 $app->get('/', function (Request $request, Response $response) {
 
-    $data['page'] = 'ssup.html';
-    $data['appname'] = $this->get('appconf')['name'];
+    $data = array();
 
     return $response->getBody()->write(
         $this->view
-        ->loadTemplate('index.html')
+        ->loadTemplate('home.tpl')
+        ->render($data)
+    );
+});
+
+$app->get('/create', function (Request $request, Response $response) {
+
+    $data = array();
+
+    return $response->getBody()->write(
+        $this->view
+        ->loadTemplate('form.tpl')
         ->render($data)
     );
 });
