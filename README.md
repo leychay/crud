@@ -1,5 +1,5 @@
 # CRUD
-A simple CRUD Operation using Slim Framework + Web Starter Kit Boilerplate
+A simple CRUD Operation using Slim Framework
 
 ## Requirement
 PHP 5.5.x and above
@@ -20,5 +20,4 @@ Before running the application, you need to give permissions for apache to write
 
 ## Links
 * [Slim Framework](http://www.slimframework.com/)
-* [Google Web Starter Kit](https://github.com/google/web-starter-kit)
 * [Monolog](https://github.com/seldaek/monolog)
